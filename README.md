@@ -1,4 +1,4 @@
-# Nest Mailer (BullMQ + MongoDB + Mongoose)
+# Queued_Email_Delivery_Service 
 
 Queues email sending using **BullMQ** and logs every email (success/failure) in **MongoDB** with timestamps and error details. Includes **rate limiting** for `/send`, **Winston** request/response logging, and Docker setup.
 
